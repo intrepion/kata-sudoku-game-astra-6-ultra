@@ -1,0 +1,41 @@
+{
+  "name": "kata-sudoku-game-astra-6-ultra",
+  "version": "1.0.0",
+  "description": "A calm Sudoku game with local photo recognition.",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "test": "vitest run src",
+    "test:e2e": "playwright test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/intrepion/kata-sudoku-game-astra-6-ultra.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/intrepion/kata-sudoku-game-astra-6-ultra/issues"
+  },
+  "homepage": "https://github.com/intrepion/kata-sudoku-game-astra-6-ultra#readme",
+  "dependencies": {
+    "lucide-react": "^1.48.0",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "tesseract.js": "^7.0.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.1",
+    "prettier": "^3.9.9",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.1",
+    "vitest": "^5.0.2"
+  },
+  "private": true
+}
