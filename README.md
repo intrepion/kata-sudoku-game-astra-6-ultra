@@ -52,3 +52,7 @@ For first-time browser test setup, run `npx playwright install chromium`. The en
 - `src/components/ImportModal.tsx`: camera, upload, crop, scan progress, recovery, and editable review.
 - `src/App.tsx`: gameplay, keyboard interaction, settings, and browser persistence.
 - `src/lib/sudoku.test.ts` and `tests/e2e/`: solver and real browser regression coverage, including an actual printed-photo recognition test.
+
+## Play online
+
+[Play the hosted game](https://intrepion.github.io/kata-sudoku-game-astra-6-ultra/)
