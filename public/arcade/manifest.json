@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "gameId": "kata-sudoku-game-astra-6-ultra",
   "playUrl": "https://intrepion.github.io/kata-sudoku-game-astra-6-ultra/",
   "screenshots": [
@@ -12,6 +12,48 @@
         "sourcePath": "artifacts/sudoku-desktop.png",
         "deployedBuild": null,
         "captureDate": null
+      }
+    },
+    {
+      "path": "arcade/screenshots/ci-20261102-01.jpg",
+      "sha256": "a873f59fe2f2fbc593a8834e0ee155119a29aac125059373f4db59a86ef1267b",
+      "alt": "Sudoku gameplay, view 1",
+      "provenance": {
+        "kind": "ci_gameplay_capture",
+        "sourcePath": "arcade/capture-evidence/ci-20261102-01.png",
+        "sourceSha256": "d55ecd43b36ca3274d87d2982797770d2612bf2fe4582603c48352821de86551",
+        "captureCommit": "c0842be7c6ebb56fa2e0ca60aa5c1e3bb0109baa",
+        "workflowRunId": "41419512429",
+        "inputHashes": {
+          "index.html": "595fbe4d6dc937b74c1ce50ee173868633ce2bc83d1864229f1fb271c066b7ff",
+          "assets/index-2i4bs7AI.css": "472c6b1fb6ff710b28cd9f82bb027e0df64714b276fc099fb9ca740cfda2df1a",
+          "assets/index-DE8hf5xs.js": "01edbd00140280032a7c694d715200d46d6eee65e8d9d454e4b0ad8e316035f1",
+          "assets/src-CiVvrEC5.js": "2faa1a8b79303f410ede1dc089e9eafdeb5bb82049b413283437b4d248ff48b5"
+        },
+        "publishedFilesVerifiedAt": "2026-11-02T19:01:20Z",
+        "captureRecordPath": "arcade/capture-evidence/ci-20261102-record.json",
+        "captureRecordSha256": "f602e2f760552268740d277a76ce9c503118d03eca37275c24912a50e26cffd6"
+      }
+    },
+    {
+      "path": "arcade/screenshots/ci-20261102-02.jpg",
+      "sha256": "f0ca233d8219870f70e05b8cca5d0c83bb62f844820f923d6e1db87d96ce384c",
+      "alt": "Sudoku gameplay, view 2",
+      "provenance": {
+        "kind": "ci_gameplay_capture",
+        "sourcePath": "arcade/capture-evidence/ci-20261102-02.png",
+        "sourceSha256": "6e1b4a3a3bbeac69e351bb27fc3badee2abbf621763ed5ae0e527d73de2cc78a",
+        "captureCommit": "c0842be7c6ebb56fa2e0ca60aa5c1e3bb0109baa",
+        "workflowRunId": "41419512429",
+        "inputHashes": {
+          "index.html": "595fbe4d6dc937b74c1ce50ee173868633ce2bc83d1864229f1fb271c066b7ff",
+          "assets/index-2i4bs7AI.css": "472c6b1fb6ff710b28cd9f82bb027e0df64714b276fc099fb9ca740cfda2df1a",
+          "assets/index-DE8hf5xs.js": "01edbd00140280032a7c694d715200d46d6eee65e8d9d454e4b0ad8e316035f1",
+          "assets/src-CiVvrEC5.js": "2faa1a8b79303f410ede1dc089e9eafdeb5bb82049b413283437b4d248ff48b5"
+        },
+        "publishedFilesVerifiedAt": "2026-11-02T19:01:20Z",
+        "captureRecordPath": "arcade/capture-evidence/ci-20261102-record.json",
+        "captureRecordSha256": "f602e2f760552268740d277a76ce9c503118d03eca37275c24912a50e26cffd6"
       }
     }
   ]

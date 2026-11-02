@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "workflowCommit": "099c464cb1202e267dd13ffbc80480f0e91827db",
+  "sourceCommit": "c0842be7c6ebb56fa2e0ca60aa5c1e3bb0109baa",
+  "runId": "41419512429",
+  "url": "http://127.0.0.1:4248/",
+  "inputs": {
+    "index.html": "595fbe4d6dc937b74c1ce50ee173868633ce2bc83d1864229f1fb271c066b7ff",
+    "assets/index-2i4bs7AI.css": "472c6b1fb6ff710b28cd9f82bb027e0df64714b276fc099fb9ca740cfda2df1a",
+    "assets/index-DE8hf5xs.js": "01edbd00140280032a7c694d715200d46d6eee65e8d9d454e4b0ad8e316035f1",
+    "assets/src-CiVvrEC5.js": "2faa1a8b79303f410ede1dc089e9eafdeb5bb82049b413283437b4d248ff48b5"
+  },
+  "browser": "153.0.8010.12",
+  "viewport": {
+    "width": 1280,
+    "height": 1000
+  },
+  "screenshots": [
+    "sudoku-astra-01.png",
+    "sudoku-astra-02.png"
+  ]
+}

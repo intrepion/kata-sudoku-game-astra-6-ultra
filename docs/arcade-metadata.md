@@ -1,3 +1,5 @@
 # Arcade metadata
 
-`public/arcade/manifest.json` is this game’s v1 manifest. Its image paths are relative to the public site root; each image has a SHA-256 and source provenance. An empty screenshot array means no verified images are available. Existing captures have unknown date and deployed-build identity; they are not fresh automated captures. Run `node scripts/verify-arcade.mjs` after edits. Vite copies `public/` into the Pages artifact.
+`public/arcade/manifest.json` is this game’s v2 manifest. Its image paths are relative to the public site root; each image has a SHA-256 and source provenance. An empty screenshot array means no verified images are available. Existing captures have unknown date and deployed-build identity; they are not fresh automated captures. Run `node scripts/verify-arcade.mjs` after edits. Vite copies `public/` into the Pages artifact.
+
+CI gameplay captures use the v2 manifest with original PNG evidence, capture source commit, workflow run, input hashes, and the time those files were checked against the published site. The verification is historical, not continuous; captures are reviewed snapshots.
