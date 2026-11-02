@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "gameId": "kata-sudoku-game-astra-6-ultra",
+  "playUrl": "https://intrepion.github.io/kata-sudoku-game-astra-6-ultra/",
+  "screenshots": [
+    {
+      "path": "arcade/screenshots/view-01.jpg",
+      "sha256": "683e77c6e5ffec5346280775cc8903b3f77008191837d46678b9f7a0ff7d59a7",
+      "alt": "Gameplay capture 1",
+      "provenance": {
+        "kind": "existing_repository_capture",
+        "sourcePath": "artifacts/sudoku-desktop.png",
+        "deployedBuild": null,
+        "captureDate": null
+      }
+    }
+  ]
+}

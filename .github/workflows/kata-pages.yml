@@ -24,6 +24,7 @@ jobs:
           package-manager-cache: false
       - uses: actions/configure-pages@v5
       - run: npm ci
+      - run: node scripts/verify-arcade.mjs
       - run: npm test
       - run: npm run build -- --base=./
       - uses: actions/upload-pages-artifact@v4
